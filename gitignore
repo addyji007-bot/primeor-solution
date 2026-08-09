@@ -1,0 +1,16 @@
+# Data files - do not commit (company/confidential data)
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Keep the data folder structure visible on GitHub, but ignore its contents
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
